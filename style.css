@@ -57,6 +57,10 @@
         width: 10vw;
         
     }
+
+    #nftView {
+        opacity: 0%;
+    }
     
     .attribution {
         bottom: 0;
@@ -102,12 +106,13 @@
         height: 299.7px;
     }
 
-    .nftView {
+    #nftView {
         position: absolute;
         z-index: 2;
         border-radius: 10px;
         padding: 125px;
         transform: translate(0, -305px);
+        opacity: 0%;
     }
 
     .attribution {
@@ -153,9 +158,7 @@ body {
     background-color:hsl(178, 100%, 50%);
 }
 
-.nftView {
-    opacity: 0%;
-}
+
 
 
 
